@@ -85,9 +85,9 @@ cmd_reboot db 'reboot',0
 cmd_about db 'about', 0
 msg_about db 'by www.mackk.xyz', 0x0d, 0x0a, 0
 cmd_help db 'help', 0
-msg_help db 'about, help, reboot', 0x0d, 0x0a, 0
+msg_help db 'about,help,reboot,shutdown', 0x0d, 0x0a, 0
 cmd_shutdown db 'shutdown', 0
-msg_shutdown db '                   YOUR SYSTEM IS NOW SAFE TO SHUTDOWN                         ', 0x0d, 0x0a, 0
+msg_shutdown db '                 YOUR SYSTEM IS NOW SAFE TO SHUTDOWN                       ', 0x0d, 0x0a, 0
 
 
 
